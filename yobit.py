@@ -176,6 +176,9 @@ class Yobit:
         return response[self.pair]["bids"][i][0]
 
     def get_sell_price(self, amount, pair="doge_btc"):
+        """
+            the highest price to sell converted 'right' in 'pair'
+        """
         print(f"Calculating volume {amount} equivalent in pair {pair}")
         price = self.last_price(pair)
         amount /= price
