@@ -1,1 +1,3 @@
 Here is a test message. Try 1.
+Adding Changes to branch. Try 2.
+Added changes from github UI. Try 3.
